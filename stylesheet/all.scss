@@ -1,0 +1,21 @@
+* , *::after , *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .4s;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Alfa Slab One', cursive;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+li{
+    list-style-type: none;
+}
+.reza{
+    display: flex;
+}

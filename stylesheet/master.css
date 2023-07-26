@@ -1,0 +1,757 @@
+@charset "UTF-8";
+.amini {
+  width: 100%;
+  height: 120vh;
+  background-image: url(../img/best-seo-services-slide-1.png);
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+  background-color: blue;
+  flex-wrap: wrap;
+}
+.amini > .box {
+  padding-left: 24px;
+  width: 100%;
+  height: 70px;
+}
+.amini > .box > .ahref {
+  justify-content: center;
+  align-items: center;
+}
+.amini > .box > .ahref a {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 40px;
+  color: white;
+  background-color: orange;
+  border: 2px solid rgb(255, 255, 255);
+}
+.amini > .box > .ahref a:hover {
+  color: orange;
+  background-color: white;
+  border: 2px solid orange;
+}
+.amini > .box > .image > figure {
+  margin: 10px 0;
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+.amini > .box > nav {
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+.amini > .box > nav > ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.amini > .box > nav > ul > li {
+  display: flex;
+  height: 100%;
+  margin: 0px 15px;
+  align-items: center;
+}
+.amini > .box > nav > ul > li:nth-of-type(4) > a > b {
+  border-radius: 3px;
+  border: 2px solid orange;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  font-size: 10px;
+  transform: translateY(-10px);
+}
+.amini > .box > nav > ul > li:nth-of-type(4) > a > b:hover {
+  color: orange;
+}
+.amini > .box > nav > ul > li > a {
+  display: flex;
+  height: 40%;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+}
+.amini > .box > nav > ul > li > a:hover {
+  color: orange;
+}
+.amini > .box > div {
+  height: 100%;
+  display: flex;
+  width: 25%;
+}
+.amini > .art {
+  padding-left: 24px;
+  width: 45%;
+  height: 440px;
+  flex-wrap: wrap;
+}
+.amini > .art > article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.amini > .art > article > h1,
+.amini > .art > article h2 {
+  color: white;
+  font-size: 55px;
+}
+.amini > .art > article > p {
+  font-size: 40px;
+  text-align: justify;
+}
+.amini > .art > article > div {
+  height: 25%;
+  align-items: center;
+  justify-content: start;
+}
+.amini > .art > article > div > a {
+  height: 35%;
+  align-items: center;
+  width: 35%;
+  display: flex;
+  margin-left: 25px;
+  border: 2px solid white;
+  border-radius: 48px;
+}
+.amini > .art > article > div > a:nth-of-type(2) {
+  background-color: rgb(112, 112, 255);
+}
+.amini > .art > article > div > a:nth-of-type(2):hover {
+  background-color: white;
+  color: rgb(112, 112, 255);
+  border: 2px solid rgba(68, 68, 196, 0.952);
+}
+.amini > .art > article > div > a:nth-of-type(1) {
+  background-color: orange;
+}
+.amini > .art > article > div > a:nth-of-type(1):hover {
+  background-color: white;
+  color: orange;
+  border: 2px solid orange;
+}
+.amini > .art > article * {
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150vh;
+  background-color: #F7F8F9;
+  flex-wrap: wrap;
+}
+.name > .art {
+  padding-left: 24px;
+  width: 100%;
+  height: 760px;
+  flex-wrap: wrap;
+}
+.name > .art .boxing {
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 400px;
+  margin-top: 35px;
+}
+.name > .art .boxing > .icon {
+  align-items: center;
+  flex-wrap: wrap;
+  width: 33%;
+  height: 100%;
+  margin: 0px 28px;
+  background-color: #FFFFFF;
+}
+.name > .art .boxing > .icon * {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+.name > .art .boxing > .icon p {
+  text-align: justify;
+  padding: 24px;
+  color: #616161;
+}
+.name > .art .boxing > .icon > h2 {
+  margin-top: 25px;
+}
+.name > .art .boxing > .icon > h2:hover {
+  color: orange;
+}
+.name > .art .boxing > .icon > h2 > i {
+  color: orange;
+  margin-bottom: 25px;
+  font-size: 44px;
+}
+.name > .art > .image {
+  display: flex;
+  width: 100%;
+}
+.name > .art > .image > figure {
+  display: flex;
+  width: 100%;
+}
+.name > .art > .image > figure > img {
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.name > .art > article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: start;
+}
+.name > .art > article > h2 {
+  align-items: baseline;
+  display: flex;
+  justify-content: center;
+  color: #202020;
+  font-size: 55px;
+}
+.name > .art > article > p {
+  margin-top: 24px;
+  font-size: 32px;
+  text-align: justify;
+}
+
+.tabbar {
+  background-color: rgb(0, 0, 82);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 150vh;
+}
+.tabbar > .rows {
+  height: 270px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  align-content: start;
+}
+.tabbar > .rows > h2 {
+  width: 100%;
+  display: flex;
+  font-size: 46px;
+}
+.tabbar > .rows > p {
+  width: 50%;
+  color: #949393;
+  font-size: 30px;
+}
+.tabbar > .rows * {
+  margin: 20px 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.tabbar > .bozorg {
+  width: 100%;
+  height: 500px;
+}
+.tabbar > .bozorg > .kochak {
+  background-color: #001061;
+  margin: 0px 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 25%;
+}
+.tabbar > .bozorg > .kochak > h2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.tabbar > .bozorg > .kochak > h2:hover {
+  color: orange;
+}
+.tabbar > .bozorg > .kochak > h2 * {
+  color: orange;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 35px 0px;
+  font-size: 60px;
+}
+.tabbar > .bozorg > .kochak > p {
+  display: flex;
+  width: 80%;
+  font-size: 17px;
+  text-align: center;
+  color: #949393;
+  line-height: 28px;
+}
+.tabbar > .bozorg > .kochak > a {
+  font-size: 18px;
+  color: orange;
+  position: relative;
+}
+.tabbar > .bozorg > .kochak > a::after {
+  position: absolute;
+  display: flex;
+  left: 175px;
+  bottom: 34px;
+  content: "˃";
+  width: 5px;
+  color: orange;
+}
+.tabbar > .byname {
+  background-color: #F7F8F9;
+  margin-top: 6px;
+  display: flex;
+  width: 100%;
+  height: 200vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tabbar > .byname > .good {
+  display: flex;
+  width: 100%;
+  height: 250px;
+}
+.tabbar > .byname > .good > article {
+  height: 150px;
+  margin: 70px 0px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.tabbar > .byname > .good > article * {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tabbar > .byname > .good > article > h2 {
+  color: #202020;
+  font-size: 55px;
+}
+.tabbar > .byname > .good > article p {
+  margin: 25px 0px;
+  display: flex;
+  width: 80%;
+  font-size: 25px;
+  text-align: center;
+  color: #949393;
+  line-height: 28px;
+}
+.tabbar > .byname > .boxsiz {
+  justify-content: center;
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+  height: 75%;
+  align-content: space-evenly;
+}
+.tabbar > .byname > .boxsiz > div {
+  width: 31%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 350px;
+}
+.tabbar > .byname > .boxsiz > div > figure {
+  cursor: pointer;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  position: relative;
+}
+.tabbar > .byname > .boxsiz > div > figure > img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tabbar > .byname > .boxsiz > div > figure > i {
+  color: orange;
+  opacity: 0;
+  position: absolute;
+  font-size: 80px;
+}
+.tabbar > .byname > .boxsiz > div > figure::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.tabbar > .byname > .boxsiz > div > figure:hover > i {
+  opacity: 1;
+}
+.tabbar > .byname > .boxsiz > div > figure:hover::after {
+  background: linear-gradient(rgba(255, 0, 0, 0.44), rgba(0, 0, 255, 0.454));
+}
+.tabbar > .byname > .ahref {
+  height: 50px;
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+.tabbar > .byname > .ahref > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(237, 202, 2);
+  width: 250px;
+  color: white;
+  height: 100%;
+  background-color: orange;
+  border-radius: 25px;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+.tabbar > .byname > .ahref > a:hover {
+  color: orange;
+  background-color: rgb(224, 224, 224);
+}
+.tabbar .blue {
+  align-content: flex-start;
+  margin-top: 0px;
+  height: 150vh;
+  background-image: url(../img/background1.jpg);
+  background-repeat: no-repeat;
+}
+.tabbar .blue > .good > article * {
+  color: white !important;
+}
+.tabbar .blues {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.tabbar .blues > div {
+  margin: 0px 10px;
+  background-color: #FFFFFF;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 15px solid #F8F8F8;
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+}
+.tabbar .blues > div > h2 {
+  color: rgb(117, 117, 255);
+  font-size: 35px;
+}
+.tabbar .blues > div > div {
+  height: 70px;
+  align-items: center;
+  background-color: #F8F8F8;
+}
+.tabbar .blues > div > div > a {
+  color: rgba(0, 0, 0, 0.53);
+  font-size: 26px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 70%;
+  padding: 7px 0px;
+  background-color: #F8F8F8;
+  border-radius: 25px;
+}
+.tabbar .blues > div > div > a:hover {
+  color: blue;
+  border: 1px solid blue;
+}
+.tabbar .blues > div > span {
+  border: 1px solid rgba(0, 0, 0, 0.059);
+  padding: 15px 0px;
+  background-color: #F8F8F8;
+  color: #949393;
+  display: flex;
+}
+.tabbar .blues > div > span > p {
+  display: flex;
+  font-size: 35px;
+  color: rgb(69, 69, 255);
+}
+.tabbar .blues > div > span > p::before {
+  content: "$";
+  font-size: 22px;
+}
+.tabbar .blues > div > span > p::after {
+  content: "99";
+  font-size: 22px;
+}
+.tabbar .blues > div * {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+.tabbar > .master {
+  margin: 0px;
+  height: 300px;
+}
+.tabbar > .sdcard {
+  flex-wrap: nowrap;
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+.tabbar > .sdcard > .sdcards {
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0px 15px;
+  display: flex;
+  width: 33%;
+  height: 100%;
+}
+.tabbar > .sdcard > .sdcards * {
+  display: flex;
+  width: 100%;
+}
+.tabbar > .sdcard > .sdcards > a {
+  padding: 5px 0px;
+  color: orange;
+  font-size: 30px;
+  justify-content: center;
+}
+.tabbar > .sdcard > .sdcards > span {
+  font-size: 15px;
+  justify-content: center;
+}
+.tabbar > .sdcard > .sdcards > p {
+  padding: 15px 0px;
+  text-align: center;
+  color: #616161;
+  font-size: 22px;
+  line-height: 30px;
+}
+.tabbar > .sdcard > .sdcards > figure {
+  position: relative;
+  overflow: hidden;
+  height: 50%;
+}
+.tabbar > .sdcard > .sdcards > figure:hover > img {
+  width: 160%;
+  left: -30%;
+  transition: 0.4s;
+}
+.tabbar > .sdcard > .sdcards > figure img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.tabbar .bords {
+  background-color: #F7F8F9;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.tabbar .bords > a {
+  padding: 10px;
+  display: flex;
+  background-color: orange;
+  width: 14%;
+  border-radius: 35px;
+  justify-content: center;
+  color: white;
+  border: 2px solid white;
+  margin-bottom: 59px;
+}
+.tabbar .bords > a:hover {
+  opacity: 0.5;
+}
+.tabbar .santor {
+  background-color: white;
+  margin: 0;
+  height: 100vh;
+}
+.tabbar .santor > .santors {
+  width: 100%;
+  display: flex;
+}
+.tabbar .santor > .santors > article {
+  display: flex;
+  width: 100%;
+}
+.tabbar .santor > .santors > article * {
+  display: flex;
+  width: 100%;
+}
+.tabbar .santor > .santors > article > figure {
+  display: flex;
+  width: 100%;
+}
+.tabbar .santor > .santors > article > figure > img {
+  margin: 20px 0px;
+  width: 150px;
+  border-radius: 50%;
+}
+.tabbar .image {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+.tabbar .image > figure {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.tabbar .image > figure > figcaption {
+  display: flex;
+  justify-content: center;
+}
+.tabbar .image > figure > figcaption > h2 {
+  display: flex;
+  position: absolute;
+  color: white;
+  justify-content: center;
+  left: 35%;
+  top: 25%;
+  z-index: 2;
+}
+.tabbar .image > figure > figcaption > p {
+  width: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: rgb(240, 217, 217);
+  left: 25%;
+  top: 37%;
+  z-index: 2;
+}
+.tabbar .image > figure > figcaption a {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  color: white;
+  background-color: orange;
+  position: absolute;
+  left: 37%;
+  top: 52%;
+  z-index: 2;
+  padding: 15px;
+  border-radius: 35px;
+}
+.tabbar .image > figure > figcaption a:hover {
+  opacity: 0.5;
+}
+.tabbar .image > figure::after {
+  position: absolute;
+  display: flex;
+  content: "";
+  width: 100%;
+  height: 85%;
+  background-color: rgba(11, 4, 4, 0.8196078431);
+}
+.tabbar .image > figure > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+.tabbar .boxis {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.tabbar .boxis .atosa {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.tabbar .boxis .atosa > .iconss {
+  margin-bottom: 65px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 50%;
+  height: 90px;
+}
+.tabbar .boxis .atosa > .iconss i {
+  font-size: 50px;
+  color: #202020;
+}
+.tabbar .boxis .atosa > p {
+  flex-wrap: wrap;
+  display: flex;
+  width: 80%;
+  color: #202020;
+  height: 220px;
+}
+.tabbar .boxis .atosa > p > a {
+  color: orange;
+}
+.tabbar .boxis .atosa * {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.tabbar .boxis .atosa > nav {
+  margin-bottom: 50px;
+  display: flex;
+  width: 100%;
+}
+.tabbar .boxis .atosa > nav > ul {
+  display: flex;
+  width: 60%;
+}
+.tabbar .boxis .atosa > nav > ul > li {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.tabbar .boxis .atosa > nav > ul > li:nth-of-type(4) > a > b {
+  border: 3px solid orange;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: flex;
+  transform: translateY(-10px);
+}
+.tabbar .boxis .atosa > nav > ul > li > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #202020;
+  width: 60%;
+}
+.tabbar .boxis .atosa > nav > ul > li > a:hover {
+  color: orange;
+}
+.tabbar .boxis .atosa > figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.tabbar .boxis .atosa > figure > img {
+  justify-content: center;
+  width: 20%;
+  height: 50px;
+}/*# sourceMappingURL=master.css.map */
